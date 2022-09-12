@@ -205,7 +205,6 @@ function findEnt(type, x, y, id, shieldLife, heros, spi, imp, isControlled, heal
             control: isControlled,
         });
     } else if (type == 0) {
-        if (health > 12) phase = 1;
         spi.push({  
             id: id,
             hp: health,
